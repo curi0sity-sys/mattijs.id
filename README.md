@@ -5,7 +5,7 @@ Hetzner hosted
 Hetzner cloud instance to trigger the tekton with a public ip address en een ssh public key to automatically setup the following on any ssh server. In this case, a hetzner auctioned server I'll provide.
 The current setup?
 Domains are with a dutch company which I'll migrate, midnight hosting has the blog data which needs a final export to the hetzner one. 
-And we need all current images to re-migratre to bunnyhopcdn.
+And we need all current images to re-migrate to bunnyhopcdn.
 
 <ul>
   <li>Blog
