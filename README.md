@@ -32,7 +32,7 @@ Hetzner cloud instance to trigger the tekton with a public ip address en een ssh
           <li>Amazon Ec2 instances x7 or 20 with all AV/EDR software a pop to do some malware dev or OSEE stuff through Guacamole</li>
         </ul>
         <ul>
-          <li>Rsync.net backups with seperated access credentials</li>
+          <li>Rsync.net backups with seperate account</li>
         </ul>
       </li>
   </li>
