@@ -34,7 +34,7 @@ And we need all current images to re-migrate to bunnyhopcdn.
         <ul>
           <li>Next cloud (filestorage - keepass data, photos of RAW of camera 5k DSLR, the storage adapter is a hetzner storage box of bucks/month of 10TB via SFTP)</li>
           <li>Guacamole</li>
-          <li>Amazon Ec2 instances x7 or 20 with all AV/EDR software a pop to do some malware dev or OSEE stuff through Guacamole</li>
+          <li>(Amazon Ec2 instances x7 or 20 with all AV/EDR software a pop to do some malware dev or OSEE stuff through Guacamole)</li>
         </ul>
         <ul>
           <li>Rsync.net backups with seperate account</li>
