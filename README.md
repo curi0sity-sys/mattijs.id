@@ -7,3 +7,6 @@ Blog, compiler, swag, https://github.com/dgtlmoon/changedetection.io/tree/master
 Backups on hetzner storage box + rsync.net
 
 De 1e 3 doen we zelf, de rest laten we doen.
+
+#optional 
+https://github.com/fosrl/pangolin bekijken voor wireguard 2fa shizzle
