@@ -9,6 +9,7 @@ Hetzner cloud instance to trigger the tekton with a public ip address en een ssh
     <ul>
       <li>+bunnyhopcdn all data + migration of current</li>
       <li>Redis cache for the MySQL database requests for 24 hours with a tekton script REST hook to clean the cache. Database MySQL hosted in a docker but rarely used. </li>
+      <li>Tekton script to have one command to update the entire infrastructure. With automatic rollback to the latest working version if it fails.</li>
     </ul>
   </li>
   <li>
