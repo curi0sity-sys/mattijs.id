@@ -15,8 +15,9 @@ vpn wireguard+2fa{
       prometheus, grafana, alert manager
     }, 
     nextcloud{
-      filestorage - keepass data, fotos RAW van camera, de storage ADAPTER is een hetzner storage box van 20 euro per maand van 10TB.
-    }
+      filestorage - keepass data, photos of RAW of camera 5k DSLR, the storage adapter is a hetzner storage box of bucks/month of 10TB.
+    },
+    amazon ec2 instances x7 of 20 with all AV/EDR software a pop to do some malware dev or OSEE stuff.
   }
 De compiler wil ik zelf nog wel doen, de rest laten we doen. heb ik wel domein access en die hetzner shit nodig.
 
