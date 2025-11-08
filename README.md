@@ -13,7 +13,7 @@ Hetzner cloud instance to trigger the tekton with a public ip address en een ssh
   <li>
     Compiler
     <ul>
-      <li>Traefik</li>
+      <li>Traefik (compiler-project.ast => mattijs.sh forward without changing url bar name)</li>
     </ul>
   </li>
   <li>
