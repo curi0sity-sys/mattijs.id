@@ -18,7 +18,7 @@ vpn wireguard+2fa{
       filestorage - keepass data, fotos RAW van camera
     }
   }
-De 1e 3 doen we zelf, de rest laten we doen.
+De compiler wil ik zelf nog wel doen, de rest laten we doen. heb ik wel domein access en die hetzner shit nodig.
 
 Backups on rsync.net with seperated access credentials.
 
