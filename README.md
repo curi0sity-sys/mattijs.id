@@ -29,6 +29,7 @@ Hetzner hosted
     Compiler (compiler-project.ast)
     <ul>
       <li>Traefik (compiler-project.ast => mattijs.sh forward without changing url bar name)</li>
+      <li>Backup container images to rsync account (once, i can do this as well)</li>
     </ul>
   </li>
   <li>
