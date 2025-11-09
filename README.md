@@ -1,4 +1,4 @@
-# mattijs.id, ast-project.app, 
+# mattijs.id, ast-project.app, {monitoring, guacamole, backups}
 
 Hetzner hosted
 
@@ -51,6 +51,7 @@ Hetzner hosted
       </li>
     </ul>
   </li>
+  <li>Hetzner Storage box for photo's. (I'll do this)</li>
 </ul>
 
 #optional 
