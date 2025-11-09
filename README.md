@@ -12,6 +12,7 @@ And we need all current images to re-migrate to bunnyhopcdn.
     <ul>
       <li>+bunnyhopcdn all data + migration of current</li>
       <li>Redis cache for the MySQL database requests for 24 hours with a tekton script REST hook to clean the cache. Database MySQL hosted in a docker but rarely used. </li>
+      <li>All posts are immediately put into Redis Cache, with each change you only update the Redis cache and MySQL Database. The only function for the MySQL database is steady storage and a simple backup.</li>
       <li>Tekton script to have one command to update the entire infrastructure. With automatic rollback to the latest working version if it fails.</li>
     </ul>
   </li>
