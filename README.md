@@ -1,4 +1,4 @@
-# mattijs.id
+# mattijs.id, ast-project.app, 
 
 Hetzner hosted
 
@@ -17,7 +17,7 @@ Hetzner hosted
 
 ## Infrastructure
 <ul>
-  <li>Blog
+  <li>Blog (mattijs.id)
     <ul>
       <li>+bunnyhopcdn all data + migration of current</li>
       <li>Redis cache for all MySQL database requests for 24 hours with a tekton script REST hook to clean the cache. Database MySQL hosted in a docker but rarely used. </li>
@@ -26,18 +26,18 @@ Hetzner hosted
     </ul>
   </li>
   <li>
-    Compiler
+    Compiler (compiler-project.ast)
     <ul>
       <li>Traefik (compiler-project.ast => mattijs.sh forward without changing url bar name)</li>
     </ul>
   </li>
-  <li>Next cloud (filestorage - keepass data, photos of RAW of camera 5k DSLR, the storage adapter is a hetzner storage box of bucks/month of 10TB via SFTP)
+  <li>Next cloud (domain name verzinnen) (filestorage documents(certificates, scripts and other shit), photos of RAW of camera 5k DSLR, the storage adapter is a hetzner storage box of bucks/month of 10TB via SFTP)
     <ul>
       <li>Rsync.net backups with seperate account</li>
     </ul>
   </li>
   <li>
-    VPN Wireguard + 2fa 
+    VPN Wireguard, Proxy manager username/pw + 2fa
     <ul>
       <li>Hoarder
         <ul>
