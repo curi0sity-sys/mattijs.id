@@ -2,18 +2,26 @@
 
 Hetzner hosted
 
-Hetzner cloud instance to trigger the tekton with a public ip address en een ssh public key to automatically setup the following on any ssh server. In this case, a hetzner auctioned server I'll provide.
-The current setup?
-Domains are with a dutch company which I'll migrate, midnight hosting has the blog data which needs a final export to the hetzner one. 
-And we need all current images to re-migrate to bunnyhopcdn.
+## Preparations
+<ul>
+  <li>The current setup? Domains are with a dutch company (hosting.nl) which I'll migrate, midnight hosting has the blog data which needs a final export to the hetzner one</li>
+  <li>And we need all current images to re-migrate to bunnyhopcdn.</li>
+</ul>
 
+## Setup
+<ul>
+  <li>Hetzner cloud instance to trigger the tekton with a public ip address en een ssh public key to automatically setup the following on any ssh server. In this case, a hetzner auctioned server I'll provide.<br/>
+  Script to do this can be pulled from this github repo so we have it centralized</li>
+  <li>Tekton script to have one command to update the entire infrastructure. With automatic rollback to the latest working version if it fails.</li>
+</ul>
+
+## Infrastructure
 <ul>
   <li>Blog
     <ul>
       <li>+bunnyhopcdn all data + migration of current</li>
       <li>Redis cache for all MySQL database requests for 24 hours with a tekton script REST hook to clean the cache. Database MySQL hosted in a docker but rarely used. </li>
       <li>All posts are immediately put into Redis Cache, with each change you only update the Redis cache and MySQL Database. The only function for the MySQL database is steady storage and a simple backup.</li>
-      <li>Tekton script to have one command to update the entire infrastructure. With automatic rollback to the latest working version if it fails.</li>
       <li>Rsync.net backups with seperate account</li>
     </ul>
   </li>
