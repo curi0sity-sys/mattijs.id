@@ -1,4 +1,4 @@
-# mattijs.id, ast-project.app, {monitoring, guacamole, backups, change detection}
+# mattijs.id, ast-project.app, {monitoring, guacamole, backups}
 
 Hetzner hosted
 
