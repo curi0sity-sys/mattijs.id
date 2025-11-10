@@ -49,9 +49,6 @@ Hetzner hosted
         <ul>
           <li>Rsync.net backups with seperate account [backup van alles achter 2fa]</li>
         </ul>
-        <ul>
-          <li>https://github.com/dgtlmoon/changedetection.io/tree/master</li>
-        </ul>
       </li>
     </ul>
   </li>
