@@ -13,7 +13,7 @@ Hetzner hosted
   <li>Hetzner cloud instance to trigger the tekton with a public ip address en een ssh public key to automatically setup the following on any ssh server. In this case, a hetzner auctioned server I'll provide.<br/>
   Script to do this can be pulled from this github repo so we have it centralized</li>
   <li>Tekton script to have one command to update the entire infrastructure. With automatic rollback to the latest working version if it fails.</li>
-  <li>We need to partially rewrite the compiler project at some point when the load becomes too much: It needs to support k8s and sticky sessions, I want the needed amount of hetzner servers to handle the load of a kubernetes setup and the 2 applications. I can point you to the book I used for the original project, and the front end is already done. The backend has a working set of API calls to show you what I did.</li>
+  <li>We need to partially rewrite the compiler project at some point when the load becomes too much: It needs to support k8s and sticky sessions, I want the needed amount of hetzner servers to handle the load of a kubernetes setup and the 2 applications. I can point you to the book I used for the original project, and the front end is already done. The backend has a working set of API calls to show you what I did. On the bright side: 1 version of the application can already host a lot but that only needs to happen in about 5 years in terms of scalability. So a docker-compose on 1 hetzner server is fine for now</li>
 </ul>
 
 ## Infrastructure
