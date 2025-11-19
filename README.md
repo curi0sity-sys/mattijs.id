@@ -14,7 +14,7 @@ Hetzner hosted
   Script to do this can be pulled from this github repo so we have it centralized</li>
   <li>Tekton script to have one command to update the entire infrastructure. With automatic rollback to the latest working version if it fails.</li>
   <li>Short term, and my first move: Compiler project in traefik and a docker-compose on 1 hetzner server. Thats probably between now and 5 december. Because I can do this by myself if I have 100 bucks.</li>
-  <li>The compiler project: It needs to support k8s and sticky sessions, I want the needed amount of hetzner servers to handle the load of a kubernetes setup and the 2 applications. On the bright side: 1 version of the application can already host a lot but we need traefik to have a couple of frontends and more backends to handle the traffic and have sticky sessions to handle the proper file io for each frontend. All we need is about a 1:10 comparability since the Java side is heavier than the frontend which is just html and javascript in the end. That's probably christmas. </li>
+  <li>The compiler project: It needs to support k8s and sticky sessions, I want the needed amount of hetzner servers to handle the load of a kubernetes setup and the 2 applications. On the bright side: 1 version of the application can already host a lot but we need traefik to have a couple of frontends and more backends to handle the traffic and have sticky sessions to handle the proper file io for each frontend. All we need is about a 1:10 comparability since the Java side is heavier than the frontend which is just html and javascript in the end. And I need the Java compiler backend to work in GraalVM with https://quarkus.io/  That's probably christmas. </li>
 </ul>
 
 ## Infrastructure
