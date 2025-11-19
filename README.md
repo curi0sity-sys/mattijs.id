@@ -1,4 +1,4 @@
-# mattijs.id, ast-project.app, {monitoring, guacamole, backups}
+# mattijs.id, ast-project.app, {monitoring, guacamole, backups}, zerosec.io/zerosec.nl
 
 Hetzner hosted
 
@@ -55,6 +55,11 @@ Hetzner hosted
     </ul>
   </li>
   <li>Hetzner Storage box for photo's. (I'll do this)</li>
+  <li>zerosec.io
+      <ul>
+        <li>Ill write out my notes once I can actually see shit again</li>
+      </ul>
+  </li>
 </ul>
 
 #optional 
