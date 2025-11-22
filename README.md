@@ -76,6 +76,7 @@ Hetzner hosted
         </li>
       </ul>
   </li>
+  <li>Home media server: I need a plexamp setup with redis cache behind it. So music is loaded instantly into memory.</li>
   <li>Zerosec.nl (own company in a bit)</li>
 </ul>
 
