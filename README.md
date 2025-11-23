@@ -76,7 +76,7 @@ Hetzner hosted
         </li>
       </ul>
   </li>
-  <li>Home media server: I need a plexamp setup with redis cache behind it. So music is loaded instantly into memory.</li>
+  <li>Home media server: I need a plexamp setup with redis cache behind it. So music is loaded instantly into memory. Or the fasted in memory cache available with its settings to about 120GB.</li>
   <li>Zerosec.nl (own company in a bit)</li>
   <li>CachyOS script to install it flawlessly on a Macbook pro</li>
 </ul>
