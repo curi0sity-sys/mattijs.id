@@ -1,4 +1,4 @@
-# mattijs.id, ast-project.app, {monitoring, guacamole, backups}, storage app(storage.zerosec.nl), zerosec.nl
+# mattijs.id, ast-project.app, {monitoring, guacamole, backups}, storage app(storage.zerosec.nl) - a nextcloud instance will probably do, zerosec.nl
 
 Hetzner hosted
 
