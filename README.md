@@ -55,7 +55,7 @@ Hetzner hosted
     </ul>
   </li>
   <li>Hetzner Storage box for photo's. (I'll do this)</li>
-  <li>Storage app (storage.zerosec.nl), needs a better domain name..
+  <li>Storage app (storage.zerosec.nl), needs a better domain name.. | probably a nextcloud instance?
       <ul>
         <li><It's a combination of dropbox, tresorit, megaupload and custom filemounts with sftp/ssh with hetzner storage boxes
           <ul>
