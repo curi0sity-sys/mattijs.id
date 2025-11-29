@@ -1,4 +1,4 @@
-# mattijs.id, ast-project.app, {monitoring, guacamole, backups, storage app(storage.mattijs.id), behind 2fa - a nextcloud instance will probably do}, zerosec.nl
+# mattijs.id, ast-project.app, {monitoring, guacamole, backups, storage app(storage.mattijs.id), behind 2fa - a nextcloud instance fork}, zerosec.nl
 
 Hetzner hosted
 
