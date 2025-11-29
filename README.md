@@ -1,4 +1,4 @@
-# mattijs.id, ast-project.app, {monitoring, guacamole, backups}, storage app(storage.zerosec.nl) - a nextcloud instance will probably do, zerosec.nl
+# mattijs.id, ast-project.app, {monitoring, guacamole, backups, storage app(storage.mattijs.id), behind 2fa - a nextcloud instance will probably do}, zerosec.nl
 
 Hetzner hosted
 
@@ -51,11 +51,7 @@ Hetzner hosted
         <ul>
           <li>Rsync.net backups with seperate account [backup van alles achter 2fa]</li>
         </ul>
-      </li>
-    </ul>
-  </li>
-  <li>Hetzner Storage box for photo's. (I'll do this)</li>
-  <li>Storage app (storage.zerosec.nl), needs a better domain name.. | probably a nextcloud instance?
+        <li><li>Storage app (storage.zerosec.nl), needs a better domain name.. | probably a nextcloud instance?
       <ul>
         <li><It's a combination of dropbox, tresorit, megaupload and custom filemounts with sftp/ssh with hetzner storage boxes
           <ul>
@@ -75,7 +71,12 @@ Hetzner hosted
           </ul>
         </li>
       </ul>
+  </li></li>
+      </li>
+    </ul>
   </li>
+  <li>Hetzner Storage box for photo's. (I'll do this)</li>
+  
   <li>Home media server: I need a plexamp setup with redis or dragonfly cache behind it. So music is loaded instantly into memory. Or the fasted in memory cache available with its settings to about 120GB.</li>
   <li>Zerosec.nl (own company in a bit)</li>
   <li>CachyOS script to install it flawlessly on a Macbook pro</li>
