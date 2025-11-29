@@ -17,6 +17,10 @@ Hetzner hosted
   <li>The compiler project: It needs to support k8s and sticky sessions, I want the needed amount of hetzner servers to handle the load of a kubernetes setup and the 2 applications. On the bright side: 1 version of the application can already host a lot but we need traefik to have a couple of frontends and more backends to handle the traffic and have sticky sessions to handle the proper file io for each frontend. All we need is about a 1:10 comparability since the Java side is heavier than the frontend which is just html and javascript in the end. And I need the Java compiler backend to work in GraalVM with https://quarkus.io/  That's probably christmas. </li>
 </ul>
 
+This - could - all end up in a single docker-compose setup on a small vps/
+
+Hardened almalinux as base os? :)
+
 ## Infrastructure
 <ul>
   <li>Blog (mattijs.id)
