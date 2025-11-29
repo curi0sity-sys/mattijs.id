@@ -24,6 +24,7 @@ Hetzner hosted
       <li>+bunnyhopcdn all data + migration of current</li>
       <li>Redis cache for all MySQL database requests for 24 hours with a tekton script REST hook to clean the cache. Database MySQL hosted in a docker but rarely used. </li>
       <li>All posts are immediately put into Redis Cache, with each change you only update the Redis cache and MySQL Database. The only function for the MySQL database is steady storage and a simple backup.</li>
+      <li>Better WYSIWYG Editor, tinymce perhaps?</li>
       <li>Rsync.net backups with seperate account</li>
     </ul>
   </li>
