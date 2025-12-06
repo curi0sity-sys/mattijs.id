@@ -21,7 +21,7 @@ This - could - all end up in a single docker-compose setup on a small vps/
 
 Hardened almalinux as base os? :)
 
-## Infrastructure
+## Infrastructure - all of it in a single docker compose for now untill I rent 3 hetzer servers for k8s.
 <ul>
   <li>Blog (mattijs.id)
     <ul>
