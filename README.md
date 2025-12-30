@@ -4,7 +4,7 @@ Hetzner hosted
 
 ## Preparations
 <ul>
-  <li>The current setup? Domains are with a dutch company (hosting.nl) which I'll migrate, midnight hosting has the blog data which needs a final export to the hetzner one</li>
+  <li>The current setup? Domains are with a dutch company (hosting.nl) which I'll migrate, midnight hosting has the blog data which I'll migrate to magicpages around may 2026</li>
   <li>And we need all current images to re-migrate to bunnyhopcdn.</li>
 </ul>
 
@@ -35,7 +35,7 @@ Hardened almalinux as base os? :)
   <li>
     Compiler (compiler-project.ast)
     <ul>
-      <li>Traefik for ssl certs</li>
+      <li>Traefik for ssl certs or a simple nginx swag setup.</li>
       <li>Backup container images to rsync account (once, i can do this as well)</li>
     </ul>
   </li>
