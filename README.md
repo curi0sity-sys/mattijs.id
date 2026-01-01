@@ -4,7 +4,7 @@ Hetzner hosted
 
 ## Preparations
 <ul>
-  <li>The current setup? Domains are with a dutch company (hosting.nl) which I'll migrate, midnight hosting has the blog data which needs a final export to the hetzner one</li>
+  <li>The current setup? Domains are with a dutch company (hosting.nl) which I'll migrate, midnight hosting has the blog data which I'll migrate to magicpages around may 2026</li>
   <li>And we need all current images to re-migrate to bunnyhopcdn.</li>
 </ul>
 
@@ -25,17 +25,20 @@ Hardened almalinux as base os? :)
 <ul>
   <li>Blog (mattijs.id)
     <ul>
-      <li>+bunnyhopcdn all data + migration of current</li>
-      <li>Redis cache for all MySQL database requests for 24 hours with a tekton script REST hook to clean the cache. Database MySQL hosted in a docker but rarely used. </li>
-      <li>All posts are immediately put into Redis Cache, with each change you only update the Redis cache and MySQL Database. The only function for the MySQL database is steady storage and a simple backup.</li>
-      <li>Better WYSIWYG Editor, tinymce perhaps?</li>
-      <li>Rsync.net backups with seperate account</li>
+      <li>+bunnyhopcdn all data + migration of current (done with magicpages)</li>
+      <li>Redis cache for all MySQL database requests for 24 hours with a tekton script REST hook to clean the cache. Database MySQL hosted in a docker but rarely used. (optional, dont care)</li>
+      <li>All posts are immediately put into Redis Cache, with each change you only update the Redis cache and MySQL Database. The only function for the MySQL database is steady storage and a simple backup.(optional)</li>
+      <li>Better WYSIWYG Editor, tinymce perhaps?(optional)</li>
+      <li>Rsync.net backups with seperate account(optional)</li>
     </ul>
   </li>
   <li>
     Compiler (compiler-project.ast)
     <ul>
-      <li>Traefik for ssl certs</li>
+      <li>Traefik for ssl certs or a simple nginx swag setup.</li>
+      <li>VueJS 3 frontend, with exactly the same looks and fonts as the docker image, with adjustable domain name, perhaps a simple config file</li>
+      <li>Backend: Got most of the source code ready, it just needs to be upgraded to the latest GraalVM, Quarkus.io needs to be used too. And cleanup the source code to only have the API calls.</li>
+      <li>To finish things off: I need nginx SWAG, The rewritten VueJS frontend docker and the upgraded backend docker in a docker-compose, and everything needs to be pointing to ast-project.app domain name so I can just launch a simple VPS, copy and paste the docker compose and get things running instantly. I'll just need to login to docker one time per machine</li>
       <li>Backup container images to rsync account (once, i can do this as well)</li>
     </ul>
   </li>
