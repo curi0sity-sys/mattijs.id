@@ -39,6 +39,7 @@ Hardened almalinux as base os? :)
       <li>VueJS 3 frontend, with exactly the same looks and fonts as the docker image, with adjustable domain name, perhaps a simple config file</li>
       <li>Backend: Got most of the source code ready, it just needs to be upgraded to the latest GraalVM, Quarkus.io needs to be used too. And cleanup the source code to only have the API calls.</li>
       <li>To finish things off: I need nginx SWAG, The rewritten VueJS frontend docker and the upgraded backend docker in a docker-compose, and everything needs to be pointing to ast-project.app domain name so I can just launch a simple VPS, copy and paste the docker compose and get things running instantly. I'll just need to login to docker one time per machine</li>
+      <li>Font family and sizes need to be in a configuration file or somewhere adjustable, same with the colours used</li>
       <li>Backup container images to rsync account (once, i can do this as well)</li>
     </ul>
   </li>
