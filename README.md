@@ -21,8 +21,9 @@
       <li>Backend: Got most of the source code ready, it just needs to be upgraded to the latest GraalVM, Quarkus.io needs to be used too. And cleanup the source code to only have the API calls.</li>
       <li>To finish things off: I need nginx SWAG, The rewritten VueJS frontend docker and the upgraded backend docker in a docker-compose, and everything needs to be pointing to ast-project.app domain name so I can just launch a simple VPS, copy and paste the docker compose and get things running instantly. I'll just need to login to docker one time per machine</li>
       <li>Font family and sizes need to be in a configuration file or somewhere adjustable, same with the colours used</li>
+      <li>Docker-slim used on the container images to optimize it</li>
       <li>A dockerized backup script that'll backup all of this to an rsync account. This docker image will live in this repo too</li>
-      <li>The VPS or hosting solution this'll live on has a completely hardened AlmaLinux setup as base OS.
+      <li>The VPS or hosting solution this'll live on has a completely hardened AlmaLinux setup as base OS. So, IDS/IPS, Lynis runs daily, automatically pentested daily</li>
     </ul>
   </li>
   <li>
