@@ -15,7 +15,7 @@
     </ul>
   </li>
   <li>
-    Compiler (compiler-project.ast)
+    Compiler (compiler-project.ast) - on hosting.nl, got the domain ready to go. The VPS will need to be bought. 2 cores, 2GB ram, rest default.
     <ul>
       <li>VueJS 3 frontend, with exactly the same looks and fonts as the docker image, with adjustable domain name, perhaps a simple config file</li>
       <li>Backend: Got most of the source code ready, it just needs to be upgraded to the latest GraalVM, Quarkus.io needs to be used too. And cleanup the source code to only have the API calls.</li>
