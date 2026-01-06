@@ -23,7 +23,7 @@
       <li>Font family and sizes need to be in a configuration file or somewhere adjustable, same with the colours used</li>
       <li>Docker-slim used on the container images to optimize it</li>
       <li>A dockerized backup script that'll backup all of this to an rsync account. This docker image will live in this repo too</li>
-      <li>The VPS or hosting solution this'll live on has a completely hardened AlmaLinux setup as base OS. So, IDS/IPS, Lynis runs daily, automatically pentested daily</li>
+      <li>The VPS or hosting solution this'll live on has a completely hardened AlmaLinux setup as base OS. We don't need managed hosting for another 2 years</li>
     </ul>
   </li>
   <li>
