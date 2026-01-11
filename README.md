@@ -36,6 +36,11 @@
       #later <li>The VPS or hosting solution this'll live on has a completely hardened AlmaLinux setup as base OS. We don't need managed hosting for another 2 years</li>
     </ul>
   </li>
+  <li>CV - curi0sity.nl
+    <ul>
+      <li>A one-page website in html that's my resume</li>
+    </ul>
+  </li>
   <li>
     VPN Wireguard, Proxy manager username/pw + 2fa # the year 2031 or something
     <ul>
