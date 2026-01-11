@@ -20,6 +20,7 @@
       <li>Frontend</li>
         <ul>
            <li>VueJS 3 frontend, with exactly the same looks and fonts as the docker image I'll provide, with adjustable domain name, perhaps a simple config file</li>
+          <li>Docker image with the frontend looks with a broken backend: https://hub.docker.com/repository/docker/matroo/frontend/tags/1.6/sha256-e7e9c375daffb0d7ac7e3744d6d4f05f7c45c09e053ac8a1637e24c41e1c1e8d </li>
           <li>Font family and sizes need to be in a configuration file or somewhere adjustable, same with the colours used</li>
           <li>Considering the pascal code is changeable, every change needs to be reflected in the compiled JVM code view as well. Computed properties to the rescue!</li>
         </ul>
