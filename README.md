@@ -23,14 +23,15 @@
           <li>Docker image with the frontend looks with a broken backend: https://hub.docker.com/repository/docker/matroo/frontend/tags/1.6/sha256-e7e9c375daffb0d7ac7e3744d6d4f05f7c45c09e053ac8a1637e24c41e1c1e8d </li>
           <li>Font family and sizes need to be in a configuration file or somewhere adjustable, same with the colours used</li>
           <li>Considering the pascal code is changeable, every change needs to be reflected in the compiled JVM code view as well. Computed properties to the rescue!</li>
+          <li>The source of all of this should be in the frontend folder of compiler-project.ast within this repo</li>
         </ul>
       <li>Backend
         <ul>
-         <li>Got most of the source code ready in this repo, it just needs to be upgraded to the latest GraalVM, Quarkus.io needs to be used too. And cleanup the source code to only have the API calls.</li>
+         <li>Got most of the source code ready in this repo (backend folder of compiler-project.ast), it just needs to be upgraded to the latest GraalVM, Quarkus.io needs to be used too. And cleanup the source code to only have the API calls.</li>
             <li>To finish things off: I need nginx SWAG with automated letsencrypt certificates, The rewritten VueJS frontend docker and the upgraded backend docker in a docker-compose, and everything needs to be pointing to ast-project.app domain name so I can just launch a simple VPS, copy and paste the docker compose and get things running instantly. I'll just need to login to docker one time per machine</li>
         </ul>
       </li>
-      <li>Docker-slim used on the container images to optimize it</li>
+      <li>Docker-slim used on the container images to optimize it, automated so if I change something it's automatically used again</li>
       #later <li>A dockerized backup script that'll backup all of this to an rsync account. This docker image will live in this repo too</li>
       #later <li>The VPS or hosting solution this'll live on has a completely hardened AlmaLinux setup as base OS. We don't need managed hosting for another 2 years</li>
     </ul>
