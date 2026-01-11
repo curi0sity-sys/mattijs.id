@@ -4,9 +4,10 @@
 <ul>
   <li>A simple script in a prepared docker, you provide a public ip address and a ssh public key to automatically setup the following on any ssh capable hosting setup.
   That docker setup and it's folders will live in this repo as well</li>
+  <li>Once all of the below has been setup in the most simplest of terms, The compiler and cv will live on a k8s cluster with 3 hetzner auctioned servers in a hardened environment, together with the storage app (sticky sessions will need to be added for the compiler</li>
 </ul>
 
-## Infrastructure - all of it in a single docker compose for now
+## Infrastructure
 <ul>
   <li>Blog (mattijs.id) - # done
     <ul>
@@ -36,7 +37,7 @@
       #later <li>The VPS or hosting solution this'll live on has a completely hardened AlmaLinux setup as base OS. We don't need managed hosting for another 2 years</li>
     </ul>
   </li>
-  <li>CV - curi0sity.nl
+  <li>CV - curi0sity.nl, first in simple html/css, once it's up and running, a docker so it'll fit in a docker-compose.
     <ul>
       <li>A one-page website in html that's my resume</li>
     </ul>
