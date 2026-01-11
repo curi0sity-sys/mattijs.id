@@ -15,13 +15,13 @@
     </ul>
   </li>
   <li>
-    Compiler (compiler-project.ast) - on hosting.nl, got the domain ready to go. The VPS will need to be bought. 2 cores, 2GB ram, rest default.
+    Compiler (compiler-project.ast) - on hosting.nl, got the domain ready to go. The VPS is ready to go.
     <ul>
       <li>Frontend</li>
         <ul>
-           <li>VueJS 3 frontend, with exactly the same looks and fonts as the docker image, with adjustable domain name, perhaps a simple config file</li>
+           <li>VueJS 3 frontend, with exactly the same looks and fonts as the docker image I'll provide, with adjustable domain name, perhaps a simple config file</li>
           <li>Font family and sizes need to be in a configuration file or somewhere adjustable, same with the colours used</li>
-          <li>Considering the pascal code is changeable, every change needs to be reflected in the compiled JVM code as well. Computed properties to the rescue!</li>
+          <li>Considering the pascal code is changeable, every change needs to be reflected in the compiled JVM code view as well. Computed properties to the rescue!</li>
         </ul>
       <li>Backend
         <ul>
