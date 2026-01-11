@@ -37,7 +37,7 @@
       #later <li>The VPS or hosting solution this'll live on has a completely hardened AlmaLinux setup as base OS. We don't need managed hosting for another 2 years</li>
     </ul>
   </li>
-  <li>CV - curi0sity.nl, first in simple html/css, once it's up and running, a docker so it'll fit in a docker-compose.
+  <li>CV - curi0sity.nl, first in simple html/css, once it's up and running, a docker so it'll fit in a docker-compose with letsencrypt in the same swag setup
     <ul>
       <li>A one-page website in html that's my resume</li>
     </ul>
