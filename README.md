@@ -43,4 +43,6 @@
   <li>Home media server: I need a plexamp setup with redis or dragonfly cache behind it. So music is loaded instantly into memory. Or the fasted in memory cache available with its settings to about 120GB.</li> #later
   <li>Zerosec.nl (own company in a bit)</li> # later
 </ul>
- 
+
+ ## Final step:
+ A Designer to make it a unified whole. CV, Blog and compiler.
