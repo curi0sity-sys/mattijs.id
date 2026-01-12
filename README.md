@@ -2,9 +2,7 @@
 
 ## Setup #next year
 <ul>
-  <li>A simple script in a prepared docker, you provide a public ip address and a ssh public key to automatically setup the following on any ssh capable hosting setup.
-  That docker setup and it's folders will live in this repo as well</li>
-  <li>Once all of the below has been setup in the most simplest of terms, The compiler and cv will live on a k8s cluster with 3 hetzner auctioned servers in a hardened environment, together with the storage app (sticky sessions will need to be added for the compiler</li>
+  <li>Once all of the below has been setup in the most simplest of terms, The compiler and cv will live on a k8s cluster with 3 hetzner auctioned servers in a hardened environment</li>
 </ul>
 
 ## Infrastructure
@@ -20,8 +18,8 @@
     <ul>
       <li>Frontend</li>
         <ul>
-           <li>VueJS 3 frontend: left column list of whitelisted files. To the right of that a Pascal code view of the given file, and the column next to it the JVM code, I need a simple config file for the column sizes, fonts and colours. It needs to be desktop friendly, resizeable from 800x600 to 4k, we can skip a mobile view</li>
-          <li>Font family and sizes need to be in a configuration file or somewhere adjustable, same with the colours used</li>
+           <li>VueJS 3 frontend: left column list of whitelisted files (20% screensize). To the right of that a Pascal code view of the given file (40%), and the column next to it the JVM code (40%), I need a simple config file for the column sizes, fonts and colours. It needs to be desktop friendly, resizeable from 800x600 to 4k, we can skip a mobile view</li>
+          <li>Font family and sizes need to be in a configuration file or somewhere adjustable, same with the colours used. </li>
           <li>Considering the pascal code is changeable, every change needs to be reflected in the compiled JVM code view as well. Computed properties to the rescue!</li>
           <li>The source of all of this should be in the frontend folder of compiler-project.ast within this repo</li>
         </ul>
