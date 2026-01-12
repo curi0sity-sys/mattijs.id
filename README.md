@@ -1,8 +1,9 @@
 # mattijs.id, ast-project.app, zerosec.nl
 
-## Setup #next year
+## Setup
 <ul>
-  <li>Once all of the below has been setup in the most simplest of terms, The compiler and cv will live on a k8s cluster with 3 hetzner auctioned servers in a hardened environment</li>
+  <li>AlmaLinux OS - completely hardened to only run a k8s cluster with the below infrastructure. The scripting to do that lives in this repo in a seperate folder.</li>
+  <li>First step is running this on a single server I've bought. Which is fine for the next year. Once the hardened OS and the below setup is done, I'll buy 2 more servers and setup a k8s cluster and include sticky sessions for the compiler</li>
 </ul>
 
 ## Infrastructure
@@ -14,7 +15,7 @@
     </ul>
   </li>
   <li>
-    Compiler (compiler-project.ast) - on hosting.nl, got the domain ready to go. The VPS is ready to go.
+    Compiler (compiler-project.ast) - on hosting.nl, got the domain ready to go.
     <ul>
       <li>Frontend</li>
         <ul>
@@ -30,8 +31,7 @@
         </ul>
       </li>
       <li>Docker-slim used on the container images to optimize it, automated so if I change something it's automatically used again</li>
-      #later <li>A dockerized backup script that'll backup all of this to an rsync account. This docker image will live in this repo too</li>
-      #later <li>The VPS or hosting solution this'll live on has a completely hardened AlmaLinux setup as base OS. We don't need managed hosting for another 2 years</li>
+      <li>The docker images live on: docker hub, a private registry on the hetzner server and the source code to build it live in this repo</li>
     </ul>
   </li>
   <li>CV - curi0sity.nl, first in simple html/css, once it's up and running, a docker so it'll fit in a docker-compose with letsencrypt in the same swag setup
