@@ -1,6 +1,6 @@
-# mattijs.id, ast-project.app, storage - a nextcloud instance fork, zerosec.nl
+# mattijs.id, ast-project.app, zerosec.nl
 
-## Setup
+## Setup #next year
 <ul>
   <li>A simple script in a prepared docker, you provide a public ip address and a ssh public key to automatically setup the following on any ssh capable hosting setup.
   That docker setup and it's folders will live in this repo as well</li>
@@ -42,8 +42,7 @@
     </ul>
   </li>
   <li>Hetzner Storage box for photo's. (I'll do this)</li>
-  
-  <li>Home media server: I need a plexamp setup with redis or dragonfly cache behind it. So music is loaded instantly into memory. Or the fasted in memory cache available with its settings to about 120GB.</li>
-  <li>Zerosec.nl (own company in a bit)</li>
+  <li>Home media server: I need a plexamp setup with redis or dragonfly cache behind it. So music is loaded instantly into memory. Or the fasted in memory cache available with its settings to about 120GB.</li> #later
+  <li>Zerosec.nl (own company in a bit)</li> # later
 </ul>
  
