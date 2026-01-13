@@ -31,6 +31,7 @@
         </ul>
       </li>
       <li>Docker-slim used on the container images to optimize it, automated so if I change something it's automatically used again</li>
+      <li>https://github.com/docker/docker-bench-security used for the entire CV and compiler docker compose setup to harden the entire situation</li>
       <li>The docker images live on: docker hub, a private registry on the hetzner server and the source code to build it live in this repo</li>
     </ul>
   </li>
