@@ -20,7 +20,6 @@
       <li>Frontend</li>
         <ul>
            <li>VueJS 3 frontend: left column list of whitelisted files (20% screensize). To the right of that a Pascal code view of the given file (40%), and the column next to it the JVM code (40%), I need a simple config file for the column sizes, fonts and colours. It needs to be desktop friendly, resizeable from 800x600 to 4k, we can skip a mobile view</li>
-          <li>Font family and sizes need to be in a configuration file or somewhere adjustable, same with the colours used. </li>
           <li>Considering the pascal code is changeable, every change needs to be reflected in the compiled JVM code view as well. Computed properties to the rescue!</li>
           <li>The source of all of this should be in the frontend folder of compiler-project.ast within this repo</li>
         </ul>
