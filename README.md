@@ -2,9 +2,9 @@
 
 ## Setup
 <ul>
-  <li>AlmaLinux OS - completely hardened to only run a k8s cluster with the below infrastructure. The scripting to do that lives in this repo in a seperate folder.</li>
-  <li>Setup a k8s cluster for all 3 projects below and include sticky sessions for the compiler. I'll buy 3 servers for it at a later point.</li>
-  <li>The scripting for the k8s cluster setup for 3 random servers x86 architecture should be put into this repo as well</li>
+  <li></li>
+  <li>Setup a k8s cluster for all 3 projects below and include sticky sessions for the compiler. All 3 projects will live on Google K8S</li>
+  <li>The migration that'll need to happen is pretty much for emails only. The DNS currently lives on hosting.nl which will need to be migrated to the same Google Cloud account</li>
 </ul>
 
 ## Infrastructure
@@ -12,6 +12,7 @@
   <li>Blog (mattijs.id)
     <ul>
       <li>+bunnyhopcdn all data + migration of current (done with magicpages) to a ghost blog setup in docker-compose form with letsencrypt certs and migration of all current data currently on magicpages to this setup</li>
+      <li>Infographics x2, jobs already posted on toptal</li>
     </ul>
   </li>
   <li>
@@ -31,16 +32,16 @@
       </li>
       <li>Docker-slim used on the container images to optimize it, automated so if I change something it's automatically used again</li>
       <li>https://github.com/docker/docker-bench-security used for the entire CV and compiler docker compose setup to harden the entire situation</li>
-      <li>The docker images live on: docker hub, a private registry on the hetzner server and the source code to build it live in this repo</li>
+      <li>The docker images live on: docker hub, a registry on the google cloud and the source code to build it live in this repo</li>
     </ul>
   </li>
-  <li>CV - curi0sity.nl, first in simple html/css, once it's up and running, a docker so it'll fit in a docker-compose with letsencrypt in the same swag setup
+  <li>CV - curi0sity.nl
     <ul>
-      <li>A one-page website in html that's my resume, built with Tailwind CSS</li>
+      <li>A one-page website in html that's my resume, built with Tailwind CSS. Once the looks and contents are there, It'll need to be put into a Docker so it can be put into K8s</li>
     </ul>
   </li>
   <li>Home media server: I need a plexamp setup with redis or dragonfly cache behind it. So music is loaded instantly into memory. Or the fasted in memory cache available with its settings to about 120GB.</li> #later
-  <li>Zerosec.nl (own company in a bit)</li> # later
+  <li>Zerosec.nl (own company in a bit) A single page website which has yet to be made, will be put into a docker and live in the same K8s cluster.</li> # later. 
 </ul>
 
  ## Final step:
