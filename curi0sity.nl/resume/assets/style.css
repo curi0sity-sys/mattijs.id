@@ -1,0 +1,168 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BASE */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ffffff;
+  color: #000;
+}
+
+/* HEADER */
+.cv-header {
+  background: linear-gradient(
+    90deg,
+    #1f232a 0%,
+    #232830 50%,
+    #1f232a 100%
+  );
+}
+
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 36px 48px;
+}
+
+.header-inner h1 {
+  color: #ffffff;
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.header-inner h2 {
+  color: #e3d438;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 6px;
+  letter-spacing: 0.5px;
+}
+
+/* TOP GRADIENT LINE */
+.top-separator {
+  height: 16px;
+  background: linear-gradient(
+    90deg,
+    #c65400 0%,
+    #d4a017 60%,
+    #e3c94d 100%
+  );
+}
+
+/* BODY */
+.cv-body {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 320px 1px 1fr;
+  padding: 40px 0;
+}
+
+/* LEFT COLUMN */
+.left-column {
+  padding: 0 32px 0 48px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.left-column section {
+  margin-bottom: 32px;
+}
+
+/* RIGHT COLUMN */
+.right-column {
+  padding: 0 48px 0 32px;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.right-column section {
+  margin-bottom: 32px;
+}
+
+/* DIVIDER */
+.divider {
+  background: #d6d6d6;
+}
+
+/* HEADINGS */
+h3 {
+  color: #ff6a00;
+  font-size: 13px;
+  letter-spacing: 1.2px;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+/* CERTIFICATIONS SPACING */
+.certifications p {
+  margin-top: 15px;
+}
+
+/* TEXT UTILITIES */
+.label {
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+.link {
+  word-break: break-word;
+  color: #1a5fb4;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+/* TECHNOLOGIES LIST */
+.tech-list {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.tech-list li {
+  margin-bottom: 6px;
+}
+
+/* FOOTER SEPARATOR */
+.footer-separator {
+  height: 120px;
+  background: #1f232a;
+  margin-top: 40px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .cv-body {
+    grid-template-columns: 1fr;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .left-column,
+  .right-column {
+    padding: 24px;
+  }
+
+  .header-inner {
+    padding: 28px 24px;
+  }
+}
+
+/* PRINT */
+@media print {
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .footer-separator {
+    display: none;
+  }
+}
