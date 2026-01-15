@@ -1,4 +1,4 @@
-# mattijs.id, ast-project.app, zerosec.nl
+# mattijs.id, ast-project.app, curi0sity.nl
 
 ## Setup
 <ul>
