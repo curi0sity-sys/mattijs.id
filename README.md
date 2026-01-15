@@ -2,7 +2,6 @@
 
 ## Setup
 <ul>
-  <li></li>
   <li>Setup a k8s cluster for all 3 projects below and include sticky sessions for the compiler. All 3 projects will live on Google K8S</li>
   <li>The migration that'll need to happen is pretty much for emails only. The DNS currently lives on hosting.nl which will need to be migrated to the same Google Cloud account</li>
 </ul>
@@ -11,7 +10,7 @@
 <ul>
   <li>Blog (mattijs.id)
     <ul>
-      <li>+bunnyhopcdn all data + migration of current (done with magicpages) to a ghost blog setup in docker-compose form with letsencrypt certs and migration of all current data currently on magicpages to this setup</li>
+      <li>bunnyhopcdn all data + migration of current (done with magicpages) to a ghost blog setup with letsencrypt certs and migration of all current data currently on magicpages to this setup. This all will live on the same Google K8s Cluster</li>
       <li>Infographics x2, jobs already posted on toptal</li>
     </ul>
   </li>
@@ -37,7 +36,7 @@
   </li>
   <li>CV - curi0sity.nl
     <ul>
-      <li>A one-page website in html that's my resume, built with Tailwind CSS. Once the looks and contents are there, It'll need to be put into a Docker so it can be put into K8s</li>
+      <li>A one-page website in html that's my resume, built with Tailwind CSS. Once the looks and contents are there, It'll need to be put into a Docker so it can be put into the same K8s cluster</li>
     </ul>
   </li>
   <li>Home media server: I need a plexamp setup with redis or dragonfly cache behind it. So music is loaded instantly into memory. Or the fasted in memory cache available with its settings to about 120GB.</li> #later
