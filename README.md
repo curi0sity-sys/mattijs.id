@@ -3,19 +3,19 @@
 ## Setup
 <ul>
   <li>AlmaLinux OS - completely hardened to only run a k8s cluster with the below infrastructure. The scripting to do that lives in this repo in a seperate folder.</li>
-  <li>First step is running this on a single server I've bought. Which is fine for the next year. Once the hardened OS and the below setup is done, I'll buy 2 more servers and setup a k8s cluster and include sticky sessions for the compiler</li>
+  <li>Setup a k8s cluster for all 3 projects below and include sticky sessions for the compiler. I'll buy 3 servers for it at a later point.</li>
+  <li>The scripting for the k8s cluster setup for 3 random servers x86 architecture should be put into this repo as well</li>
 </ul>
 
 ## Infrastructure
 <ul>
-  <li>Blog (mattijs.id) - # done
+  <li>Blog (mattijs.id)
     <ul>
-      <li>+bunnyhopcdn all data + migration of current (done with magicpages)</li> #done
-      <li>Rsync.net backups with seperate account(optional)</li> #to be done
+      <li>+bunnyhopcdn all data + migration of current (done with magicpages) to a ghost blog setup in docker-compose form with letsencrypt certs and migration of all current data currently on magicpages to this setup</li>
     </ul>
   </li>
   <li>
-    Compiler (compiler-project.ast) - on hosting.nl, got the domain ready to go.
+    Compiler (compiler-project.ast) - most of this project's source-code is 90% done. Just needs a docker-compose setup with letsencrypt certs and wiring the api calls to the frontend.
     <ul>
       <li>Frontend</li>
         <ul>
@@ -39,7 +39,6 @@
       <li>A one-page website in html that's my resume, built with Tailwind CSS</li>
     </ul>
   </li>
-  <li>Hetzner Storage box for photo's. (I'll do this)</li>
   <li>Home media server: I need a plexamp setup with redis or dragonfly cache behind it. So music is loaded instantly into memory. Or the fasted in memory cache available with its settings to about 120GB.</li> #later
   <li>Zerosec.nl (own company in a bit)</li> # later
 </ul>
