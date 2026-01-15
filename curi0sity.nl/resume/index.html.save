@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mattijs Roozeboom – CV</title>
+  <link rel="stylesheet" href="assets/style.css"/>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="cv-header">
+    <div class="header-inner">
+      <h1>Mattijs Roozeboom</h1>
+      <h2>Security / Platform / SRE Engineer</h2>
+    </div>
+  </header>
+
+  <!-- TOP GRADIENT SEPARATOR -->
+  <div class="top-separator"></div>
+
+  <!-- MAIN BODY -->
+  <main class="cv-body">
+
+    <!-- LEFT COLUMN -->
+    <aside class="left-column">
+
+      <section>
+        <h3>Contact</h3>
+
+        <p class="label">Address</p>
+        <p>Area of Eindhoven</p>
+
+        <p class="label">Email</p>
+        <p>jobs@mattijs.sh</p>
+
+        <p class="label">LinkedIn</p>
+        <a href="https://www.linkedin.com/in/mattijs-r-95140516/" class="link">
+          https://www.linkedin.com/in/mattijs-r-95140516/
+        </a>
+
+        <p class="label">Languages</p>
+        <p>Dutch: Native, English: IELTS 9/10</p>
+      </section>
+
+      <hr>
+
+      <section class="certifications">
+        <h3>Education & Certifications</h3>
+
+        <p>
+          OSCP, OSED, CKA, CKAD, AZ-900, AZ-500, AZ-204, AZ-400,
+          Amazon Cloud Practitioner, AWS Developer Associate,
+          AWS SysOps Administrator Associate,
+          Amazon DevOps Engineer Professional,
+          AWS Security Specialty
+        </p>
+
+        <p>Red Team Ops II – Zero Point Security</p>
+
+        <p>
+          WWHF Offensive Development<br>
+          Training focused on evasion of modern AV/EDR solutions
+        </p>
+
+        <p>Defcon 22 and 25</p>
+
+        <p>Kaspersky – Targeted Malware Reverse Engineering</p>
+
+        <p>
+          Sektor7 – Malware Development (Essentials → Advanced 2)
+        </p>
+
+        <p>Sektor7 – Red Team Operator Windows Evasion</p>
+        <p>Sektor7 – Windows Privilege Escalation</p>
+        <p>Sektor7 – Windows Persistence</p>
+      </section>
+
+      <hr>
+
+      <section>
+        <h3>Technologies</h3>
+
+        <ul class="tech-list">
+          <li>Linux, Bash, Git</li>
+          <li>Docker, Docker Compose, Kubernetes</li>
+          <li>AWS, Azure, GCP</li>
+          <li>Java, Quarkus, JVM internals</li>
+          <li>Python, JavaScript</li>
+          <li>CI/CD, Infrastructure as Code</li>
+          <li>Security engineering, pentesting, red teaming</li>
+        </ul>
+      </section>
+
+    </aside>
+
+    <!-- VERTICAL DIVIDER -->
+    <div class="divider"></div>
+
+    <!-- RIGHT COLUMN -->
+    <section class="right-column">
+
+      <section>
+        <h3>Profile</h3>
+
+        <p>
+          Engineer with a strong focus on security, platform reliability,
+          and backend systems. I specialize in solving complex technical
+          problems that sit at the intersection of infrastructure,
+          security, and software engineering.
+        </p>
+
+        <p>
+          Dev(Sec)Ops is considered the baseline. I continuously improve
+          workflows, automation, and system reliability in high-impact
+          environments.
+        </p>
+
+        <p>
+          I function best in technically leading or pioneering roles
+          within highly technical contexts.
+        </p>
+
+        <p class="bold">
+          Summarized: give me the problem no one else wants to solve.
+        </p>
+      </section>
+
+      <section>
+        <h3>Ideal Assignment</h3>
+
+        <p>
+          I thrive in environments where I can add impact without being a
+          permanent team member.
+        </p>
+
+        <p>
+          If the primary purpose of office presence is team bonding,
+          I’m likely not the right fit.
+        </p>
+
+        <p>
+          I’m looking for challenging assignments where expectations and
+          impact are clear upfront.
+        </p>
+      </section>
+
+      <section>
+        <h3>Recent Work</h3>
+
+        <p>
+          Freelance security, platform, and backend engineering assignments
+          focused on cloud-native systems, infrastructure automation, and
+          security-critical environments.
+        </p>
+
+        <p>
+          Recent projects include compiler tooling, backend platform
+          migrations, CI/CD pipelines, and security-focused infrastructure
+          work.
+        </p>
+      </section>
+
+    <<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mattijs Roozeboom – CV</title>
+  <link rel="stylesheet" href="assets/style.css"/>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="cv-header">
+    <div class="header-inner">
+      <h1>Mattijs Roozeboom</h1>
+      <h2>Security / platform / SRE Engineer</h2>
+    </div>
+  </header>
+
+  <!-- TOP GRADIENT SEPARATOR -->
+  <div class="top-separator"></div>
+
+  <!-- MAIN BODY -->
+  <main class="cv-body">
+
+    <!-- LEFT COLUMN -->
+    <aside class="left-column">
+
+      <section>
+        <h3>Contact</h3>
+
+        <p class="label">Address</p>
+        <p>Area of Eindhoven</p>
+
+        <p class="label">Email</p>
+        <p>jobs@mattijs.sh</p>
+
+        <p class="label">LinkedIn</p>
+        <a href="https://www.linkedin.com/in/mattijs-r-95140516/" class="link">
+          https://www.linkedin.com/in/mattijs-r-95140516/
+        </a>
+
+        <p class="label">Languages</p>
+        <p>Dutch: Native, English: IELTS 9/10</p>
+      </section>
+
+      <hr>
+
+      <section class="certifications">
+        <h3>Education</h3>
+
+        <p>
+          OSCP, OSED, CKA, CKAD, AZ-900, AZ-500, AZ-204, AZ-400,
+          Amazon Cloud Practitioner, AWS Developer Associate,
+          AWS Sysops Administrator Associate,
+          Amazon DevOps Engineer Professional,
+          AWS Security Specialty
+        </p>
+
+        <p>Red Team Ops II – Zero Point Security</p>
+
+        <p>
+          WWHF Offensive Development<br>
+          Getting taught how to evade about every AV/EDR solution on the planet
+        </p>
+
+        <p>Defcon 22 and 25</p>
+
+        <p>Kaspersky, Targeted Malware Reverse Engineering</p>
+
+        <p>
+          Sektor7 – Malware development Essentials, Intermediate,
+          Advanced and Advanced 2
+        </p>
+
+        <p>Sektor7 – Red Team Operator Windows evasion course</p>
+        <p>Sektor7 – Privilege Escalation in Windows</p>
+        <p>Sektor7 – Windows Persistence Course</p>
+      </section>
+
+    </aside>
+
+    <!-- VERTICAL DIVIDER -->
+    <div class="divider"></div>
+
+    <!-- RIGHT COLUMN -->
+    <section class="right-column">
+
+      <section>
+        <h3>Profile</h3>
+
+        <p>
+          As an engineer with an intrinsic interest in ethical hacking and reverse
+          engineering I aim to find and solve the more esoteric problems, so the team
+          doesn’t have to.
+        </p>
+
+        <p>
+          The Dev(Sec)Ops way of working is considered standard operating
+          procedure, yet I strive to improve upon that way of working every day.
+        </p>
+
+        <p>
+          I function best in a technical leading and/or pioneering role within a
+          highly technical context.
+        </p>
+
+        <p>
+          But I don’t shy away from communicating pragmatically with people from
+          other disciplines or departments.
+        </p>
+
+        <p class="bold">
+          Summarized: Give me the problem no-one else can solve.
+        </p>
+      </section>
+
+      <section>
+        <h3>Ideal Assignment</h3>
+
+        <p>
+          I flourish in an environment where I’m not a permanent member of the team
+          but can still help and support the team.
+        </p>
+
+        <p>
+          If the only reason to go to the office is to strengthen the team spirit,
+          I’m not the right guy.
+        </p>
+
+        <p>
+          All I’m looking 
