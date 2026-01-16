@@ -37,6 +37,7 @@
   <li>CV - curi0sity.nl
     <ul>
       <li>A one-page website in html that's my resume, built with Tailwind CSS. Once the looks and contents are there, It'll need to be put into a Docker so it can be put into the same K8s cluster</li>
+      <li>Add Mac OS hacking certs and a whole bunch of other shit</li>
     </ul>
   </li>
   <li>Home media server: I need a plexamp setup with redis or dragonfly cache behind it. So music is loaded instantly into memory. Or the fasted in memory cache available with its settings to about 120GB.</li> #later
