@@ -30,7 +30,6 @@
         </ul>
       </li>
       <li>Docker-slim used on the container images to optimize it, automated so if I change something it's automatically used again</li>
-      <li>https://github.com/docker/docker-bench-security used for the entire CV and compiler docker compose setup to harden the entire situation</li>
       <li>The docker images live on: docker hub, a registry on the google cloud and the source code to build it live in this repo</li>
     </ul>
   </li>
@@ -40,7 +39,7 @@
       <li>Add Mac OS hacking certs and a whole bunch of other shit</li>
     </ul>
   </li>
-  <li>Home media server: I need a plexamp setup with redis or dragonfly cache behind it. So music is loaded instantly into memory. Or the fasted in memory cache available with its settings to about 120GB.</li> #later
+  <li>Home media server: I need a plexamp setup with redis or dragonfly cache behind it. So music is loaded instantly into memory. Or the fasted in memory cache available with its settings to about 120GB.</li>
   <li>Zerosec.nl (own company in a bit) A single page website which has yet to be made, will be put into a docker and live in the same K8s cluster.</li> # later. 
 </ul>
 
