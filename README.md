@@ -29,18 +29,15 @@
             <li>To finish things off: I need nginx SWAG with automated letsencrypt certificates, The rewritten VueJS frontend docker and the upgraded backend docker in a docker-compose, and everything needs to be pointing to ast-project.app domain name so I can just launch a simple VPS, copy and paste the docker compose and get things running instantly. I'll just need to login to docker one time per machine</li>
         </ul>
       </li>
-      <li>Docker-slim used on the container images to optimize it, automated so if I change something it's automatically used again</li>
-      <li>The docker images live on: docker hub, a registry on the google cloud and the source code to build it live in this repo</li>
     </ul>
   </li>
   <li>CV - curi0sity.nl
     <ul>
       <li>A one-page website in html that's my resume, built with Tailwind CSS. Once the looks and contents are there, It'll need to be put into a Docker so it can be put into the same K8s cluster</li>
-      <li>Add Mac OS hacking certs and a whole bunch of other shit</li>
     </ul>
   </li>
-  <li>Home media server: I need a plexamp setup with redis or dragonfly cache behind it. So music is loaded instantly into memory. Or the fasted in memory cache available with its settings to about 120GB.</li>
-  <li>Zerosec.nl (own company in a bit) A single page website which has yet to be made, will be put into a docker and live in the same K8s cluster.</li> # later. 
+  <li>Home media server: I need a plexamp setup with redis or dragonfly cache behind it. So music is loaded instantly into memory. Or the fasted in memory cache available with its settings to about 120GB. </li> @later
+  <li>Zerosec.nl (own company in a bit) A single page website which has yet to be made, will be put into a docker and live in the same K8s cluster. Zerosec: In corporation with outflank, wkl, eset en asml and the dutch government</li> # later. 
 </ul>
 
  ## Final step:
