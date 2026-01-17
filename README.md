@@ -37,7 +37,7 @@
     </ul>
   </li>
   <li>Home media server: I need a plexamp setup with redis or dragonfly cache behind it. So music is loaded instantly into memory. Or the fasted in memory cache available with its settings to about 120GB. </li> @later
-  <li>Zerosec.nl (own company in a bit) A single page website which has yet to be made, will be put into a docker and live in the same K8s cluster. Zerosec: In corporation with outflank, wkl, eset en asml and the dutch government</li> # later. 
+  <li>Zerosec.nl (own company in a bit) A single page website which has yet to be made, will be put into a docker and live in the same K8s cluster. Zerosec: In corporation with outflank, wkl, eset en asml and the dutch government</li> 
 </ul>
 
  ## Final step:
