@@ -33,10 +33,10 @@
   </li>
   <li>CV - curi0sity.nl
     <ul>
-      <li>A one-page website in html that's my resume, built with Tailwind CSS. Once the looks and contents are there, It'll need to be put into a Docker so it can be put into the same K8s cluster</li>
+      <li>A one-page website in html that's my resume, built with Tailwind CSS. Once the contents are there, It'll need to be put into a Docker so it can be put into the same K8s cluster</li>
     </ul>
   </li>
-  <li>Home media server: I need a plexamp setup with redis or dragonfly cache behind it. So music is loaded instantly into memory. Or the fasted in memory cache available with its settings to about 120GB. </li> @later
+  <li>Home media server: I need a plexamp setup with redis or dragonfly cache behind it. So music is loaded instantly into memory. Or the fasted in memory cache available with its settings to about 120GB. </li>
   <li>Zerosec.nl (own company in a bit) A single page website which has yet to be made, will be put into a docker and live in the same K8s cluster. Zerosec: In corporation with outflank, wkl, eset en asml and the dutch government</li> 
 </ul>
 
