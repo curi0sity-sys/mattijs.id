@@ -10,7 +10,7 @@
 <ul>
   <li>Blog (mattijs.id)
     <ul>
-      <li>bunnyhopcdn all data + migration of current (done with magicpages) to a ghost blog setup with letsencrypt certs and migration of all current data currently on magicpages to this setup. This all will live on the same Google K8s Cluster</li>
+      <li>bunnyhopcdn all data + migration of current (done with magicpages) to a ghost blog setup with ssl certs and migration of all current data currently on magicpages to this setup. This all will live on the same Google K8s Cluster</li>
       <li>Infographics x2, jobs already posted on toptal</li>
     </ul>
   </li>
@@ -36,7 +36,7 @@
       <li>A one-page website in html that's my resume, built with Tailwind CSS. Once the contents are there, It'll need to be put into a Docker so it can be put into the same K8s cluster</li>
     </ul>
   </li>
-  <li>Home media server: I need a plexamp setup with redis or dragonfly cache behind it. So music is loaded instantly into memory. Or the fasted in memory cache available with its settings to about 120GB. </li>
+  <li>Home media server: I need a plexamp setup with redis or dragonfly cache behind it. So music is loaded instantly into memory. Or the fasted in memory cache available with its settings to about 120GB. (This won't live on the same k8s cluster</li>
   <li>Zerosec.nl (own company in a bit) A single page website which has yet to be made, will be put into a docker and live in the same K8s cluster. Zerosec: In corporation with outflank, wkl, eset en asml and the dutch government</li> 
 </ul>
 
