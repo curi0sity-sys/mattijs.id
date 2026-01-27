@@ -1,11 +1,5 @@
 # mattijs.id, ast-project.app, curi0sity.nl
 
-## Setup
-<ul>
-  <li>Setup a k8s cluster for all 3 projects below and include sticky sessions for the compiler. All 3 projects will live on Google K8S</li>
-  <li>The migration that'll need to happen is pretty much for emails only. The DNS currently lives on hosting.nl which will need to be migrated to the same Google Cloud account</li>
-</ul>
-
 ## Infrastructure
 <ul>
   <li>Blog (curi0sity.nl)
@@ -16,7 +10,7 @@
     </ul>
   </li>
   <li>
-    Compiler (compiler-project.ast) - most of this project's source-code is 90% done. Just needs a docker-compose setup with letsencrypt certs and wiring the api calls to the frontend.
+    Compiler (compiler-project.ast) - most of this project's source-code is 90% done. Just needs a docker-compose setup with letsencrypt certs and wiring the api calls to the frontend. It'll be hosted on a hetzner instance.
     <ul>
       <li>Frontend</li>
         <ul>
@@ -34,7 +28,7 @@
   </li>
   <li>CV - mattijs.id
     <ul>
-      <li>A one-page website in html that's my resume. #finishing it up right now. It'll need to be put into a Docker so it can be put into the same K8s cluster</li>
+      <li>A one-page website in html that's my resume. Once ready, hosted on a s3 bucket via cloudfront and their certs</li>
     </ul>
   </li>
   <li>Home media server: I need a plexamp setup with redis or dragonfly cache behind it. So music is loaded instantly into memory. Or the fasted in memory cache available with its settings to about 120GB. (This won't live on the same k8s cluster</li>
