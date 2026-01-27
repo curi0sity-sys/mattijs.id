@@ -41,4 +41,4 @@
 </ul>
 
  ## Final step:
- A Designer to make it a unified whole. CV, Blog and compiler.
+ A Designer to make it a unified whole. CV, Blog - which just means adjusting the blog colours slightly to match the CV theme.
