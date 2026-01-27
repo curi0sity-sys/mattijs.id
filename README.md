@@ -8,7 +8,7 @@
 
 ## Infrastructure
 <ul>
-  <li>Blog (mattijs.id)
+  <li>Blog (curi0sity.nl)
     <ul>
       <li>bunnyhopcdn all data + migration of current (done with magicpages) to a ghost blog setup with ssl certs and migration of all current data currently on magicpages to this setup. This all will live on the same Google K8s Cluster</li>
       <li>Infographics x2, jobs already posted on toptal</li>
@@ -31,7 +31,7 @@
       </li>
     </ul>
   </li>
-  <li>CV - curi0sity.nl
+  <li>CV - mattijs.id
     <ul>
       <li>A one-page website in html that's my resume. #finishing it up right now. It'll need to be put into a Docker so it can be put into the same K8s cluster</li>
     </ul>
