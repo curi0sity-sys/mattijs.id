@@ -12,6 +12,7 @@
     <ul>
       <li>bunnyhopcdn all data + migration of current (done with magicpages) to a ghost blog setup with ssl certs and migration of all current data currently on magicpages to this setup. This all will live on the same Google K8s Cluster</li>
       <li>Infographics x2, jobs already posted on toptal</li>
+      <li>A designer to make the blogpost contents wider. I'm thinking 1024 or 1200 something wide</li>
     </ul>
   </li>
   <li>
