@@ -2,7 +2,7 @@
 
 ## Infrastructure
 <ul>
-  <li>Blog (curi0sity.nl)
+  <li>Blog (curi0sity.nl) - Will stay on magicpages since that guy has this shit for his job
     <ul>
       <li>bunnyhopcdn all data + migration of current (done with magicpages) to a ghost blog setup with ssl certs and migration of all current data currently on magicpages to this setup. This all will live on the same Google K8s Cluster</li>
       <li>Infographics x2, jobs already posted on toptal</li>
