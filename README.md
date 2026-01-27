@@ -1,21 +1,18 @@
 # mattijs.id, ast-project.app, curi0sity.nl
 
-## Setup
-<ul>
-  <li>Setup a k8s cluster for all 3 projects below and include sticky sessions for the compiler. All 3 projects will live on Google K8S</li>
-  <li>The migration that'll need to happen is pretty much for emails only. The DNS currently lives on hosting.nl which will need to be migrated to the same Google Cloud account</li>
-</ul>
+All DNS will be moved to cloudflare to the unlimited tier eventually
 
 ## Infrastructure
 <ul>
-  <li>Blog (mattijs.id)
+  <li>Blog (curi0sity.nl) - Will stay on magicpages since that guy has this shit for his job
     <ul>
       <li>bunnyhopcdn all data + migration of current (done with magicpages) to a ghost blog setup with ssl certs and migration of all current data currently on magicpages to this setup. This all will live on the same Google K8s Cluster</li>
       <li>Infographics x2, jobs already posted on toptal</li>
+      <li>A designer to make the blogpost contents wider. I'm thinking 1024 or 1200 something wide</li>
     </ul>
   </li>
   <li>
-    Compiler (compiler-project.ast) - most of this project's source-code is 90% done. Just needs a docker-compose setup with letsencrypt certs and wiring the api calls to the frontend.
+    Compiler (compiler-project.ast) - most of this project's source-code is 90% done. Just needs a docker-compose setup with letsencrypt certs and wiring the api calls to the frontend. It'll be hosted on a hetzner instance.
     <ul>
       <li>Frontend</li>
         <ul>
@@ -31,13 +28,13 @@
       </li>
     </ul>
   </li>
-  <li>CV - curi0sity.nl
+  <li>CV - mattijs.id
     <ul>
-      <li>A one-page website in html that's my resume. #finishing it up right now. It'll need to be put into a Docker so it can be put into the same K8s cluster</li>
+      <li>A one-page website in html that's my resume. Once ready, hosted on a s3 bucket via cloudfront and their certs</li>
     </ul>
   </li>
-  <li>Home media server: I need a plexamp setup with redis or dragonfly cache behind it. So music is loaded instantly into memory. Or the fasted in memory cache available with its settings to about 120GB. (This won't live on the same k8s cluster</li>
+  <li>Home media server: I need a plexamp setup with redis or dragonfly cache behind it. So music is loaded instantly into memory. Or the fasted in memory cache available with its settings to about 120GB. It'll run on my own setup</li>
 </ul>
 
  ## Final step:
- A Designer to make it a unified whole. CV, Blog and compiler.
+ A Designer to make it a unified whole. CV, Blog - which just means adjusting the blog colours slightly to match the CV theme.
