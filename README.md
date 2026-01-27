@@ -1,5 +1,7 @@
 # mattijs.id, ast-project.app, curi0sity.nl
 
+All DNS will be moved to cloudflare
+
 ## Infrastructure
 <ul>
   <li>Blog (curi0sity.nl) - Will stay on magicpages since that guy has this shit for his job
