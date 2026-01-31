@@ -6,7 +6,6 @@ All DNS will be moved to cloudflare to the unlimited tier eventually
 <ul>
   <li>Blog (curi0sity.nl) - Will stay on magicpages since that guy has this shit for his job
     <ul>
-      <li>bunnyhopcdn all data + migration of current (done with magicpages) to a ghost blog setup with ssl certs and migration of all current data currently on magicpages to this setup. This all will live on the same Google K8s Cluster</li>
       <li>Infographics x2, jobs already posted on toptal</li>
       <li>A designer to make the blogpost contents wider. I'm thinking 1024 or 1200 something wide</li>
     </ul>
@@ -26,6 +25,19 @@ All DNS will be moved to cloudflare to the unlimited tier eventually
             <li>To finish things off: I need nginx SWAG with automated letsencrypt certificates, The rewritten VueJS frontend docker and the upgraded backend docker in a docker-compose, and everything needs to be pointing to ast-project.app domain name so I can just launch a simple VPS, copy and paste the docker compose and get things running instantly. I'll just need to login to docker one time per machine</li>
         </ul>
       </li>
+        <li>
+            <p>
+               See github  repo
+
+               This will live on a completely hardend Arch linux os that can only run the given compiler rpoject.
+               everything else is hard shut down for hetzner in this case.
+               The DNS lives on clouddlare, and it'll be hosted on 3 sizeable k8s machiens which will form a k8s cluster.
+               I'tll need sticky sessions and a small cleanup of the github repo considering there's now 2 github repo's.
+            
+               Also a small manual on how to keep it updated. I'm guessing a yaourt -Syua should do?
+        </p>
+
+        </li>
     </ul>
   </li>
   <li>CV - mattijs.id
@@ -37,4 +49,5 @@ All DNS will be moved to cloudflare to the unlimited tier eventually
 </ul>
 
  ## Final step:
- A Designer to make it a unified whole. CV, Blog - which just means adjusting the blog colours slightly to match the CV theme.
+ A Designer to make it a unified whole. CV, Blog, copmiler, zerosec- which just means adjusting the blog colours slightly to match the CV theme.
+Spellcheck on all websites
