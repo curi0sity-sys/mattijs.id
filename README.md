@@ -4,7 +4,7 @@ All DNS will be moved to cloudflare to the unlimited tier eventually
 
 ## Infrastructure
 <ul>
-  <li>Blog (curi0sity.nl) - Currently on magicpages, needs the exact same setup on hetzner only on a server I'll rent.
+  <li>Blog (curi0sity.nl) - Currently on magicpages and will remain there for now
     <ul>
       <li>Infographics x2, jobs already posted on toptal</li>
       <li>A designer to make the blogpost contents wider. I'm thinking 1024 or 1200 something wide, and responsive</li>
@@ -59,3 +59,5 @@ Once that outscales, I'll buy 3 servers and go for k8s on hetzner.
 
 
 And if that ever reaches a limit,  I'll just buy more hetzner servers.
+
+So 2 simple html/css pages and the compiler project in a docker-compose setup.
