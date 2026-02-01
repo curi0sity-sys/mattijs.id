@@ -4,14 +4,14 @@ All DNS will be moved to cloudflare to the unlimited tier eventually
 
 ## Infrastructure
 <ul>
-  <li>Blog (curi0sity.nl) - Will stay on magicpages since that guy has this shit for his job
+  <li>Blog (curi0sity.nl) - Currently on magicpages, needs the exact same setup on hetzner only on a server I'll rent.
     <ul>
       <li>Infographics x2, jobs already posted on toptal</li>
-      <li>A designer to make the blogpost contents wider. I'm thinking 1024 or 1200 something wide</li>
+      <li>A designer to make the blogpost contents wider. I'm thinking 1024 or 1200 something wide, and responsive</li>
     </ul>
   </li>
   <li>
-    Compiler (compiler-project.ast) - most of this project's source-code is 90% done. Just needs a docker-compose setup with letsencrypt certs and wiring the api calls to the frontend. It'll be hosted on a hetzner instance.
+    Compiler (ast-project.app) - most of this project's source-code is 90% done. Just needs a docker-compose setup with letsencrypt certs and wiring the api calls to the frontend. It'll be hosted on a hetzner instance.
     <ul>
       <li>Frontend</li>
         <ul>
@@ -26,17 +26,14 @@ All DNS will be moved to cloudflare to the unlimited tier eventually
         </ul>
       </li>
         <li>
-            <p>
                See github  repo
 
-               This will live on a completely hardend Arch linux os that can only run the given compiler rpoject.
+               This will live on a completely hardend Arch linux os that can only run the given compiler project.
                everything else is hard shut down for hetzner in this case.
                The DNS lives on clouddlare, and it'll be hosted on 3 sizeable k8s machiens which will form a k8s cluster.
-               I'tll need sticky sessions and a small cleanup of the github repo considering there's now 2 github repo's.
+               It'll need sticky sessions and a small cleanup of the github repo considering there's now 2 github repo's.
             
                Also a small manual on how to keep it updated. I'm guessing a yaourt -Syua should do?
-        </p>
-
         </li>
     </ul>
   </li>
@@ -46,8 +43,19 @@ All DNS will be moved to cloudflare to the unlimited tier eventually
     </ul>
   </li>
   <li>Home media server: I need a plexamp setup with redis or dragonfly cache behind it. So music is loaded instantly into memory. Or the fasted in memory cache available with its settings to about 120GB. It'll run on my own setup</li>
+<li>Zerosec.nl - Company website, simple one-pager</li>
+<li>Storage systeem: rsync.net account to store everything, which automatically get's more storage. Buy this this week</li>
 </ul>
 
  ## Final step:
  A Designer to make it a unified whole. CV, Blog, copmiler, zerosec- which just means adjusting the blog colours slightly to match the CV theme.
-Spellcheck on all websites
+Spellcheck on all websites.
+
+Need the docker signing security step on my docker containers as well. (Add this to resume as well)
+
+All of this on a simple hetzner server I'll buy in a docker-compose-setup.
+
+Once that outscales, I'll buy 3 servers and go for k8s on hetzner.
+
+
+And if that ever reaches a limit,  I'll just buy more hetzner servers.
