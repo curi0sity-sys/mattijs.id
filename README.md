@@ -42,7 +42,6 @@ All DNS will be moved to cloudflare to the unlimited tier eventually
       <li>A one-page website in html that's my resume. Once ready, hosted on a s3 bucket via cloudfront and their certs</li>
     </ul>
   </li>
-  <li>Home media server: I need a plexamp setup with redis or dragonfly cache behind it. So music is loaded instantly into memory. Or the fasted in memory cache available with its settings to about 120GB. It'll run on my own setup</li>
 <li>Zerosec.nl - Company website, simple one-pager</li>
 <li>Storage systeem: rsync.net account to store everything, which automatically get's more storage. Buy this this week</li>
 </ul>
