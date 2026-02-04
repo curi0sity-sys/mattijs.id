@@ -28,7 +28,7 @@ All DNS is on cloudflare
         <li>
                See github  repo
 
-               This will live on a completely hardend Arch linux os that can only run the given compiler project.
+               This will live on a completely hardend Ubuntu linux os that can only run the given compiler project.
                everything else is hard shut down for hetzner in this case.
                The DNS lives on clouddlare, and it'll be hosted on 3 sizeable k8s machiens which will form a k8s cluster.
                It'll need sticky sessions and a small cleanup of the github repo considering there's now 2 github repo's.
