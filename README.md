@@ -1,6 +1,6 @@
-# mattijs.id, ast-project.app, curi0sity.nl
+# mattijs.id, ast-project.app, curi0sity.nl, zerosec.nl
 
-All DNS will be moved to cloudflare to the unlimited tier eventually
+All DNS is on cloudflare
 
 ## Infrastructure
 <ul>
@@ -39,10 +39,10 @@ All DNS will be moved to cloudflare to the unlimited tier eventually
   </li>
   <li>CV - mattijs.id
     <ul>
-      <li>A one-page website in html that's my resume. Once ready, hosted on a s3 bucket via cloudfront and their certs</li>
+      <li>A one-page website in html that's my resume. </li>
     </ul>
   </li>
-<li>Zerosec.nl - Company website, simple one-pager. Should include WKL, ESET, Praktijk Barend Spijkers, ASML companies with the slogan: creating evil shit so you don't have to. Theming: black instead of white, following the resume colour scheme theming.</li>
+<li>Zerosec.nl - Company website, simple one-pager. Website is there, just need a small design job</li>
 <li>Storage systeem: rsync.net account to store everything, which automatically get's more storage. Buy this this week</li>
 </ul>
 
@@ -58,5 +58,3 @@ Once that outscales, I'll buy 3 servers and go for k8s on hetzner.
 
 
 And if that ever reaches a limit,  I'll just buy more hetzner servers.
-
-So 2 simple html/css pages and the compiler project in a docker-compose setup.
