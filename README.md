@@ -42,7 +42,7 @@ All DNS will be moved to cloudflare to the unlimited tier eventually
       <li>A one-page website in html that's my resume. Once ready, hosted on a s3 bucket via cloudfront and their certs</li>
     </ul>
   </li>
-<li>Zerosec.nl - Company website, simple one-pager</li>
+<li>Zerosec.nl - Company website, simple one-pager. Should include WKL, ESET, Praktijk Barend Spijkers, ASML companies with the slogan: creating evil shit so you don't have to. Theming: black instead of white, following the resume colour scheme theming.</li>
 <li>Storage systeem: rsync.net account to store everything, which automatically get's more storage. Buy this this week</li>
 </ul>
 
