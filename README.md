@@ -39,10 +39,10 @@ All DNS is on cloudflare
   </li>
   <li>CV - mattijs.id
     <ul>
-      <li>A one-page website in html that's my resume. </li>
+      <li>A one-page website in html that's my resume. Letsencrypt swag setup in hardened environment </li>
     </ul>
   </li>
-<li>Zerosec.nl - Company website, simple one-pager. Website is there, just need a small design job</li>
+<li>Zerosec.nl - Company website, simple one-pager. Website is there, just need a small design job. Letsencrypt swag setup in hardened environment </li>
 <li>Storage systeem: rsync.net account to store everything, which automatically get's more storage. Buy this this week</li>
 </ul>
 
