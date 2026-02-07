@@ -39,10 +39,10 @@ All DNS is on cloudflare
   </li>
   <li>CV - mattijs.id
     <ul>
-      <li>A one-page website in html that's my resume. </li>
+      <li>A one-page website in html that's my resume. Letsencrypt swag setup in hardened environment </li>
     </ul>
   </li>
-<li>Zerosec.nl - Company website, simple one-pager. Website is there, just need a small design job</li>
+<li>Zerosec.nl - Company website, simple one-pager. Website is there, just need a small design job. Letsencrypt swag setup in hardened environment </li>
 <li>Storage systeem: rsync.net account to store everything, which automatically get's more storage. Buy this this week</li>
 </ul>
 
@@ -52,9 +52,9 @@ Spellcheck on all websites.
 
 Need the docker signing security step on my docker containers as well. (Add this to resume as well)
 
-All of this on a simple hetzner server I'll buy in a docker-compose-setup.
+All of this on 3 simple hetzner servers I'll buy in a docker-compose-setup.
 
-Once that outscales, I'll buy 3 servers and go for k8s on hetzner.
+Once that outscales, I'll buy 6 more servers and go for k8s on hetzner.
 
 
 And if that ever reaches a limit,  I'll just buy more hetzner servers.
