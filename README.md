@@ -50,9 +50,6 @@ All DNS is on cloudflare
  A Designer to make it a unified whole. CV, Blog, copmiler, zerosec- which just means adjusting the blog colours slightly to match the CV theme.
 Spellcheck on all websites.
 
-All of this on 3 simple hetzner servers I'll buy in a docker-compose-setup.
+Once this outscales, increased hosting packages, then vps's, then cyso's kubernetes setup. I want a hosted environment with contact info instead of an american cloud.
 
-Once that outscales, I'll buy 6 more servers and go for k8s on hetzner.
-
-
-And if that ever reaches a limit,  I'll just buy more hetzner servers.
+And if that ever reaches a limit,  I'll just buy more servers
