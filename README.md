@@ -50,8 +50,6 @@ All DNS is on cloudflare
  A Designer to make it a unified whole. CV, Blog, copmiler, zerosec- which just means adjusting the blog colours slightly to match the CV theme.
 Spellcheck on all websites.
 
-Need the docker signing security step on my docker containers as well. (Add this to resume as well)
-
 All of this on 3 simple hetzner servers I'll buy in a docker-compose-setup.
 
 Once that outscales, I'll buy 6 more servers and go for k8s on hetzner.
