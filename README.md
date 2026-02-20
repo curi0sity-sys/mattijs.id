@@ -15,9 +15,8 @@ All DNS is on cloudflare
     <ul>
       <li>Frontend</li>
         <ul>
-           <li>VueJS 3 frontend: left column list of whitelisted files (20% screensize). To the right of that a Pascal code view of the given file (40%), and the column next to it the JVM code (40%), I need a simple config file for the column sizes, fonts and colours. It needs to be desktop friendly, resizeable from 800x600 to 4k, we can skip a mobile view</li>
-          <li>Considering the pascal code is changeable, every change needs to be reflected in the compiled JVM code view as well. Computed properties to the rescue!</li>
-          <li>The source of all of this should be in the frontend folder of compiler-project.ast within this repo</li>
+           <li>The old frontend has been found and source code is available in 'mattijs-editor' folder with node 11 it runs decently</li>
+          <li>The source of all of this should be in the frontend folder of compiler-project.ast within this repo with all duplicate stuff removed.</li>
         </ul>
       <li>Backend
         <ul>
@@ -30,10 +29,7 @@ All DNS is on cloudflare
 
                This will live on a completely hardend Ubuntu linux os that can only run the given compiler project.
                everything else is hard shut down for hetzner in this case.
-               The DNS lives on clouddlare, and it'll be hosted on 3 sizeable k8s machiens which will form a k8s cluster.
-               It'll need sticky sessions and a small cleanup of the github repo considering there's now 2 github repo's.
-            
-               Also a small manual on how to keep it updated. I'm guessing a yaourt -Syua should do?
+               The DNS lives on clouddlare, for now It'll live on a single simple hosting.nl vps which I'll buy. Later we'll need sticky sessions for k8s delivery.
         </li>
     </ul>
   </li>
