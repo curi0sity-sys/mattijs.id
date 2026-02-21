@@ -6,7 +6,7 @@ All DNS is on cloudflare
 <ul>
   <li>Blog (curi0sity.nl) - Currently on magicpages and will remain there for now
     <ul>
-      <li>Infographics x2, jobs already posted on toptal</li>
+      <li>Infographics x2, jobs to be posted somewhere</li>
       <li>A designer to make the blogpost contents wider. I'm thinking 1024 or 1200 something wide, and responsive</li>
     </ul>
   </li>
