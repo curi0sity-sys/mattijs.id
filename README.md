@@ -25,11 +25,10 @@ All DNS is on cloudflare
         </ul>
       </li>
         <li>
-               See github  repo
-
+               <p>See github  repo
                This will live on a completely hardend Ubuntu linux os that can only run the given compiler project.
                everything else is hard shut down for hetzner in this case.
-               The DNS lives on clouddlare, for now It'll live on a single simple hosting.nl vps which I'll buy. Later we'll need sticky sessions for k8s delivery.
+               The DNS lives on clouddlare, for now It'll live on a single simple hosting.nl vps which I'll buy. Later we'll need sticky sessions for k8s delivery.</p>
         </li>
     </ul>
   </li>
