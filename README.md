@@ -41,7 +41,7 @@ All DNS is on cloudflare
 </ul>
 
  ## Final step:
- A Designer to make it a unified whole. CV, Blog, copmiler, zerosec- which just means adjusting the blog colours slightly to match the CV theme.
+ A Designer to make it a unified whole. CV, Blog, copmiler -  which just means adjusting the blog colours slightly to match the CV theme.
 Spellcheck on all websites.
 
 Once this outscales, increased hosting packages, then vps's, then cyso's kubernetes setup. I want a hosted environment with contact info instead of an american cloud.
