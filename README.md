@@ -1,4 +1,4 @@
-# mattijs.id, ast-project.app, curi0sity.nl, zerosec.nl
+# mattijs.id, ast-project.app, curi0sity.nl
 
 All DNS is on cloudflare
 
@@ -37,7 +37,6 @@ All DNS is on cloudflare
       <li>A one-page website in html that's my resume. Hosted on simple hosting package with ssl cert from hosting.nl </li>
     </ul>
   </li>
-<li>Zerosec.nl - Company website, simple one-pager. Website is there, just need a small design job. Hosted on simple hosting package with ssl cert from hosting.nl</li>
 <li>Storage systeem: rsync.net account to store everything, which automatically get's more storage. Buy this this week</li>
 </ul>
 
