@@ -11,7 +11,7 @@ All DNS is on cloudflare
     </ul>
   </li>
   <li>
-    Compiler (ast-project.app) - most of this project's source-code is 90% done. Just needs a docker-compose setup with letsencrypt certs and wiring the api calls to the frontend. It'll be hosted on a hosting.nl vps.
+    Compiler (ast-project.app) - most of this project's source-code is 90% done. Just needs a docker-compose setup with letsencrypt certs and wiring the api calls to the frontend. It'll be hosted on a hetzner vps.
     <ul>
       <li>Frontend</li>
         <ul>
@@ -34,7 +34,7 @@ All DNS is on cloudflare
   </li>
   <li>CV - mattijs.id
     <ul>
-      <li>A one-page website in html that's my resume. Hosted on simple hosting package with ssl cert from hosting.nl </li>
+      <li>A one-page website in html that's my resume. with letsencrypt swag setup on a hetzner vps</li>
     </ul>
   </li>
 <li>Storage systeem: rsync.net account to store everything, which automatically get's more storage. Buy this this week</li>
