@@ -37,7 +37,7 @@ All DNS is on cloudflare
       <li>A one-page website in html that's my resume. with letsencrypt swag setup on a hetzner vps</li>
     </ul>
   </li>
-<li>Storage systeem: rsync.net account to store everything, which automatically get's more storage. Buy this this week</li>
+<li>Storage system: rsync.net account to store everything, which automatically get's more storage. Buy this this week</li>
 </ul>
 
  ## Final step:
