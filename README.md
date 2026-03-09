@@ -16,6 +16,7 @@ All DNS is on cloudflare
       <li>Frontend</li>
         <ul>
            <li>The old frontend has been found and source code is available in 'mattijs-editor' folder with node 11 it runs decently</li>
+          <li>Instead of 4 views, it should just have two views horizontally, next to eachother</li>
           <li>The source of all of this should be in the frontend folder of compiler-project.ast within this repo with all duplicate stuff removed.</li>
         </ul>
       <li>Backend
