@@ -39,17 +39,11 @@ All DNS is on cloudflare
   </li>
   <li>CV - mattijs.id
     <ul>
-      <li>A one-page website in html that's my resume. Hosted on simple hosting package with ssl cert from hosting.nl </li>
+      <li>A one-page website in html that's my resume. Hosted on cloudflare pages </li>
     </ul>
   </li>
-<li>Zerosec.nl - Company website, simple one-pager. Website is there, just need a small design job. Hosted on simple hosting package with ssl cert from hosting.nl</li>
-<li>Storage systeem: rsync.net account to store everything, which automatically get's more storage. Buy this this week</li>
 </ul>
 
  ## Final step:
- A Designer to make it a unified whole. CV, Blog, copmiler, zerosec- which just means adjusting the blog colours slightly to match the CV theme.
+ A Designer to make it a unified whole. CV, Blog, compiler.
 Spellcheck on all websites.
-
-Once this outscales, increased hosting packages, then vps's, then cyso's kubernetes setup. I want a hosted environment with contact info instead of an american cloud.
-
-And if that ever reaches a limit,  I'll just buy more servers
