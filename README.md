@@ -11,7 +11,7 @@ All DNS is on cloudflare
     </ul>
   </li>
   <li>
-    Compiler (ast-project.app) - most of this project's source-code is 90% done. Just needs a docker-compose .
+    Compiler (ast-project.app) - most of this project's source-code is 90% done.
     <ul>
       <li>Frontend</li>
         <ul>
@@ -22,6 +22,10 @@ All DNS is on cloudflare
       <li>Backend
         <ul>
          <li>Got most of the source code ready in this repo (backend folder of compiler-project.ast), The latest graalvm checkups should be done. And cleanup the source code to only have the API calls.</li>
+        <li>-1. editor content top left = selected file (response /rest/show/)
+-   2. jvm top right= response van /rest/compile/{filename}
+-   3. output bottom left = response van /rest/compile/{filename}
+-   4. xref bottom right = x reference (response van /rest/compile/{filename})</li>
         <li>Should be deployed on AWS Fargate with frontend pointing to this API</li>
         </ul>
       </li>
