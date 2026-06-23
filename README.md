@@ -21,11 +21,11 @@ All DNS is on cloudflare
         </ul>
       <li>Backend
         <ul>
-         <li>Got most of the source code ready in this repo (backend folder of compiler-project.ast), The latest graalvm checkups should be done. And cleanup the source code to only have the API calls.</li>
-        <li>-1. editor content top left = selected file (response /rest/show/)
--   2. jvm top right= response van /rest/compile/{filename}
--   3. output bottom left = response van /rest/compile/{filename}
--   4. xref bottom right = x reference (response van /rest/compile/{filename})</li>
+         <li>Got most of the source code ready in this repo (backend folder of compiler-project.ast).</li>
+        <li>-1. editor content top left = selected file (response /rest/show/) Uncompiled pascal source file
+-   2. jvm top right= response van /rest/compile/{filename} - JVM output in native jvm language
+-   3. output bottom left = response van /rest/compile/{filename} - Output of file itself
+-   4. xref bottom right = x reference (response van /rest/compile/{filename}) - Output of xref of this program</li>
         <li>Should be deployed on AWS Fargate with frontend pointing to this API</li>
         </ul>
       </li>
