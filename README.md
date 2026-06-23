@@ -26,7 +26,7 @@ All DNS is on cloudflare
 -   2. jvm top right= response van /rest/compile/{filename} - JVM output in native jvm language
 -   3. output bottom left = response van /rest/compile/{filename} - Output of file itself
 -   4. xref bottom right = x reference (response van /rest/compile/{filename}) - Output of xref of this program</li>
-        <li>Should be deployed on Google Cloud Run with frontend pointing to this API</li>
+        <li>Should be deployed on hetzner cloud instance with docker with frontend pointing to this API</li>
         </ul>
       </li>
     </ul>
