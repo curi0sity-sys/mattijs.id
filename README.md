@@ -4,12 +4,7 @@ All DNS is on cloudflare
 
 ## Infrastructure
 <ul>
-  <li>Blog (curi0sity.nl) - Currently on magicpages and will remain there for now
-    <ul>
-      <li>Infographics x2, jobs to be posted somewhere</li>
-      <li>A designer to make the blogpost contents wider. I'm thinking 1024 or 1200 something wide, and responsive. End product should be a theme.zip file I can upload to magicpages</li>
-    </ul>
-  </li>
+  <li>Blog (curi0sity.sh)</li>
   <li>
     Compiler (ast-project.app) - most of this project's source-code is 90% done.
     <ul>
@@ -37,7 +32,3 @@ All DNS is on cloudflare
     </ul>
   </li>
 </ul>
-
- ## Final step:
- A Designer to make it a unified whole. CV, Blog, compiler.
-Spellcheck on all websites.
